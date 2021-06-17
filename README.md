@@ -45,9 +45,9 @@ To train the model, run ```MOOC student dropout/main.py```
 ```Alpha-Bitcoin/alpha/alpha_labels.pickle```: the pickled user labels.
 
 **3.2 Structure**
-* ```Alpha-Bitcoin/encoders.py```:
-* ```Alpha-Bitcoin/aggregators.py```: 
-* ```Alpha-Bitcoin/model.py```:
+* ```Alpha-Bitcoin/aggregators.py```: the convolution layers in GraphSAGE implementations;
+* ```Alpha-Bitcoin/encoders.py```: eFraduCom implementations;
+* ```Alpha-Bitcoin/model.py```: eFraduCom implementations and training the model.
 
 **3.3 Run**
 
