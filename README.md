@@ -73,4 +73,4 @@ As the Bitcoin-Alpha dataset only has the labels and attributes vectors of users
 
 **3.3 Run**
 
-To train the model, run ``Alpha-Bitcion/model.py```
+To train the model, run ```Alpha-Bitcion/model.py```
