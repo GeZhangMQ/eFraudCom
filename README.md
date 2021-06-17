@@ -43,7 +43,9 @@ As the Bitcoin-Alpha dataset only has the labels and attributes vectors of users
 **3.1 Data**
 
 ```Alpha-Bitcoin/alpha/alpha_graph_u2u.pickle```: the pickled sparse adjacency matrix about users;
+
 ```Alpha-Bitcoin/alpha/alpha_graph_u2p.pickle```: the pickled sparse adjacency matrix about users and items;
+
 ```Alpha-Bitcoin/alpha/alpha_labels.pickle```: the pickled user labels.
 
 **3.2 Structure**
