@@ -1,7 +1,7 @@
 # eFraudCom: An E-commerce Fraud Detection System via Competitive Graph Neural Networks
 **Overview** 
 
-This repository is PyTorch implementation of the method proposed in 
+This repository is PyTorch implementation of Competitive Graph Neural Network (CGNN) proposed in 
 
 "eFraudCom: An E-commerce Fraud Detection System via Competitive Graph Neural Networks".
 
@@ -37,6 +37,8 @@ In the dataset MOOC student drop-out, we regard students as users and actions as
 To train the model, run ```MOOC student dropout/main.py```
 
 ## 3. Alpha-Bitcoin
+
+As the Bitcoin-Alpha dataset only has the labels and attributes vectors of users, we can only do anomalous user nodes detection task on it, while CGNN proposed for detecting edges related to fraud behaviors. To make CGNN can detect anomalous user nodes on the Bitcoin-Alpha dataset, we modify both the Alpha-Bitcoin dataset and CGNN. Specifically, 1) for the Alpha-Bitcoin dataset, we build a homogeneous graph among users by connecting users who purchase the same products according to the original Bitcoin-Alpha bipartite graph; 2) for CGNN, the two subparts (i.e., subpart-1 and subpart-2) in CGNN are replaced by the graph convolution layers proposed in GraphSAGE. We use the Bitcoin-Alpha dataset to verify that the competitive decoder structure proposed by this work can also perform well when detecting anomaly nodes on homogeneous graphs
 
 **3.1 Data**
 
