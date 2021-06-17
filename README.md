@@ -37,3 +37,18 @@ In the dataset MOOC student drop-out, we regard students as users and actions as
 To train the model, run ```MOOC student dropout/main.py```
 
 ## 3. Alpha-Bitcoin
+
+**3.1 Data**
+
+```Alpha-Bitcoin/alpha/alpha_graph_u2u.pickle```: the pickled sparse adjacency matrix about users;
+```Alpha-Bitcoin/alpha/alpha_graph_u2p.pickle```: the pickled sparse adjacency matrix about users and items;
+```Alpha-Bitcoin/alpha/alpha_labels.pickle```: the pickled user labels.
+
+**3.2 Structure**
+* ```Alpha-Bitcoin/encoders.py```:
+* ```Alpha-Bitcoin/aggregators.py```: 
+* ```Alpha-Bitcoin/model.py```:
+
+**3.3 Run**
+
+To train the model, run ``Alpha-Bitcion/model.py```
