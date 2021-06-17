@@ -28,9 +28,9 @@ In the dataset MOOC student drop-out, we regard students as users and actions as
 
 * ```MOOC student dropout/data/new_mooc.mat```: the dataset which contains ```action_features.mat``` ```bipartitie_action.mat``` ```item_features_matrix.mat``` ```user_features_matrix.mat``` ```edge_item_features_matrix.mat``` ```edge_item_features_matrix.mat```
 * ```MOOC student dropout/main.py```: training the model and training options; 
-* ```MOOC student dropout/model.py```: eFraudCom implementaions;
+* ```MOOC student dropout/model.py```:  CGNN implementaions;
 * ```MOOC student dropout/preprocess.py```: utils;
-* ```MOOC student dropout/dgi.py```: eFraudCom implementaions;
+* ```MOOC student dropout/dgi.py```: CGNN implementaions;
 
 **2.3 Run**
 
@@ -48,8 +48,8 @@ As the Bitcoin-Alpha dataset only has the labels and attributes vectors of users
 
 **3.2 Structure**
 * ```Alpha-Bitcoin/aggregators.py```: the convolution layers in GraphSAGE implementations;
-* ```Alpha-Bitcoin/encoders.py```: eFraduCom implementations;
-* ```Alpha-Bitcoin/model.py```: eFraduCom implementations and training the model.
+* ```Alpha-Bitcoin/encoders.py```: CGNN implementations;
+* ```Alpha-Bitcoin/model.py```: CGNN implementations and training the model.
 
 **3.3 Run**
 
