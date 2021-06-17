@@ -31,4 +31,7 @@ In the dataset MOOC student drop-out, we regard students as users and actions as
 * ```MOOC student dropout/dgi.py```: eFraudCom implementaions;
 
 **2.3 Run**
+
 To train the model, run ```MOOC student dropout/main.py```
+
+## 3. Alpha-Bitcoin
