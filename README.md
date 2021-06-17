@@ -1,7 +1,9 @@
 # eFraudCom: An E-commerce Fraud Detection System via Competitive Graph Neural Networks
 **Overview** 
 
-This repository is PyTorch implementation of the method proposed in "eFraudCom: An E-commerce Fraud Detection System via Competitive Graph Neural Networks".
+This repository is PyTorch implementation of the method proposed in 
+
+"eFraudCom: An E-commerce Fraud Detection System via Competitive Graph Neural Networks".
 
 ## 1. Requirements
 
