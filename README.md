@@ -56,21 +56,21 @@ As the Bitcoin-Alpha dataset only has the labels and attributes vectors of users
 
 **3.1 Data**
 
-```Alpha-Bitcoin/alpha/alpha_graph_u2u.pickle```: the pickled sparse adjacency matrix about users;
+```Bitcoin-Alpha/alpha/alpha_graph_u2u.pickle```: the pickled sparse adjacency matrix about users;
 
-```Alpha-Bitcoin/alpha/alpha_graph_u2p.pickle```: the pickled sparse adjacency matrix about users and items;
+```Bitcoin-Alpha/alpha/alpha_graph_u2p.pickle```: the pickled sparse adjacency matrix about users and items;
 
-```Alpha-Bitcoin/alpha/alpha_labels.pickle```: the pickled user labels.
+```Bitcoin-Alpha/alpha/alpha_labels.pickle```: the pickled user labels.
 
 **3.2 Structure**
 
-* ```Alpha-Bitcoin/aggregators.py```: the convolution layers in GraphSAGE implementations;
+* ```Bitcoin-Alpha/aggregators.py```: the convolution layers in GraphSAGE implementations;
 
-* ```Alpha-Bitcoin/encoders.py```: CGNN implementations;
+* ```Bitcoin-Alpha/encoders.py```: CGNN implementations;
 
-* ```Alpha-Bitcoin/model.py```: CGNN implementations and training the model.
+* ```Bitcoin-Alpha/model.py```: CGNN implementations and training the model.
 
 
 **3.3 Run**
 
-To train the model, run ```Alpha-Bitcion/model.py```
+To train the model, run ```Bitcion-Alpha/model.py```
