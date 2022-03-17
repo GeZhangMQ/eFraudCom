@@ -128,8 +128,6 @@ def run_():
 	optimizer2 = torch.optim.SGD(Inlier_decoder.parameters(), lr = 0.001)
 	optimizer3 = torch.optim.SGD(Outlier_decoder.parameters(), lr = 0.001)
 
-	#开始训练 
-
 	train=[i for i in range(3275)]
 
 	for epoch in range(epoches):
